@@ -280,6 +280,7 @@ footer {
 }
 /*Fichier coaching.html seulement*/
 #reservation {
+    top: 0px;
     background-color: #f1f2f6;
     background: url(imageSDS.jpeg) no-repeat;
     background-size: cover;
