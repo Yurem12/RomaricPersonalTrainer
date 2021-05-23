@@ -281,7 +281,7 @@ footer {
 /*Fichier coaching.html seulement*/
 #reservation {
     background-color: #f1f2f6;
-    background: url(imageSDS.jpeg) no-repeat top;
+    background: url(imageSDS.jpeg) no-repeat fixed top;
     background-size: cover;
     font-family: 'Roboto';
 }
