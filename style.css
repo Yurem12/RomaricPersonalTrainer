@@ -125,7 +125,7 @@ header li a {
 }
 #premieravis p {
     float: right;
-    padding: 0px 0px 0px 25%;
+    padding: 0px -15% 0px 25%;
 }
 #prestations {
     background-color: lightblue;
