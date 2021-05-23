@@ -91,7 +91,7 @@ header li a {
 
 #imagePrincipale {
     padding-top: 60px;
-    background: url(images/imageSDS.jpeg) no-repeat fixed 50% 50%;
+    background: url(imageSDS.jpeg) no-repeat fixed 50% 50%;
     background-size: cover;
     height: 400px;
 }
@@ -117,7 +117,7 @@ header li a {
 }
 #avisclients li {
     margin-left: 25%;
-    background: url(images/avis1.jpg) no-repeat border-box;
+    background: url(avis1.jpg) no-repeat border-box;
     padding: 30px 0px 50px 10%;
     height: 180px;
     width: 50%;
@@ -183,7 +183,7 @@ header li a {
 }
 
 #img {
-    background: url(images/diplomeEntraineur.jpg) no-repeat;
+    background: url(diplomeEntraineur.jpg) no-repeat;
     background-color: lightblue;
     min-width: 240px;
     min-height: 240px;
@@ -193,7 +193,7 @@ header li a {
 }
 
 #img2 {
-    background: url(images/logoClassique2.jpg) no-repeat;
+    background: url(logoClassique2.jpg) no-repeat;
     background-color: lightblue;
     min-width: 240px;
     min-height: 240px;
@@ -210,10 +210,10 @@ header li a {
     text-align: center;
 }
 #entrainement {
-    background: url(images/Entrainement.jpg) no-repeat;
+    background: url(Entrainement.jpg) no-repeat;
 }
 #Longwy {
-    background: url(images/Longwy.PNG) no-repeat;
+    background: url(Longwy.PNG) no-repeat;
 }
 #Choisir li {
     margin: 65px 50px 100px 200px;
@@ -280,7 +280,7 @@ footer {
 /*Fichier coaching.html seulement*/
 #reservation {
     background-color: #f1f2f6;
-    background: url(images/imageSDS.jpeg) no-repeat;
+    background: url(imageSDS.jpeg) no-repeat;
     background-size: cover;
     font-family: 'Roboto';
 }
