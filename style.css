@@ -259,6 +259,7 @@ footer {
 }
 #copyrights {
     padding: auto;
+    bottom: 0px;
 }
 
 #copyrights li {
