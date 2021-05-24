@@ -330,6 +330,15 @@ footer {
 
 /*information.html uniquement*/
 
+#Romaric {
+    padding-top: 60px;
+    background-color: #f1f2f6;
+    background: url(imageSDS.jpeg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    font-family: 'Roboto';
+}
+}
+
 #Romaric p {
     font-size: 1.5em;
     margin: 10% 10%;
