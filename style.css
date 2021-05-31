@@ -140,6 +140,11 @@ header li a {
     padding-top: 30px;
 }
 
+#prestations p {
+    font-size: 1.5em;
+    padding: 8px 25%;
+}
+
 #prestations h6 {
     font-family: 'Dancing Script' cursive;
     text-align: center;
@@ -156,14 +161,6 @@ header li a {
     font-weight: 300;
 }
 
-.services {
-    text-align : center;
-    padding : 1em;
-    border : 0.5em solid #f1f1f1;
-    margin: 10px 5% 40px 8%;
-    border-radius: 5%;
-}
-
 .services img {
     max-width: 80%;
     border-radius: 10px;
@@ -172,7 +169,18 @@ header li a {
     margin-left: auto;
     margin-right: auto;
 }
+
+.services {
+    text-align : center;
+    padding : 1em;
+    border : 0.5em solid #f1f1f1;
+    border-width: auto;
+    margin: 10px 5% 40px 8%;
+    border-radius: 5%;
+}
+
 /* Pourquoi me choisir */
+
 #Choisir {
     height: 1400;
     background-color: #f1f2f6;
@@ -185,7 +193,7 @@ header li a {
 #TexteIntro p{
     background-color: lightblue;
     font-family: 'Dancing Script';
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 #TexteIntro li{
@@ -213,13 +221,14 @@ header li a {
     box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
 }
 
-#presentation p {
+#Choisir p {
     height: 45px;
     width: 350px;
     margin: 1px -300px 0 20% ;
     font-size: 1.5em;
     text-align: center;
 }
+
 #entrainement {
     background: url(Entrainement.jpg) no-repeat;
 }
