@@ -18,7 +18,7 @@ li {
     list-style-type: none;
 }
 #presentation {
-    background-color: lightblue;
+    background-color: #f1f2f6;
 }
 #TexteIntro p {
     font-family: 'Roboto';
@@ -216,7 +216,7 @@ header li a {
 }
 
 #TexteIntro p{
-    background-color: lightblue;
+    background-color: #f1f2f6;
     font-family: 'Dancing Script';
     font-size: 1.5em;
 }
