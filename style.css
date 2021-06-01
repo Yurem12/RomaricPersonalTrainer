@@ -140,6 +140,10 @@ header li a {
     padding-top: 30px;
 }
 
+#prestations {
+    background-color: #f1f2f6;
+}
+
 #prestations p {
     font-size: 1.5em;
     padding: 8px 25%;
@@ -180,7 +184,7 @@ header li a {
 .services {
     text-align : center;
     padding : 1em;
-    border : 0.5em solid #f1f1f1;
+    border : 0.5em solid lightblue;
     border-width: auto;
     margin: 10px 5% 40px 8%;
     border-radius: 5%;
