@@ -94,6 +94,7 @@ header li a {
     background: url(imageSDS.jpeg) no-repeat fixed 50% 50%;
     background-size: cover;
     height: 40%;
+    width: 100%
 }
 #imagePrincipale h3 {
     text-align: center;
