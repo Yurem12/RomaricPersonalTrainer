@@ -149,26 +149,6 @@ header li a {
     background-color: black;
 }
 
-#par p {
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 20px 20px 20px 20px;
-    text-align: center;
-}
-
-#par li {
-    text-align: center;
-    font-weight: bold;
-    padding-top: 10px;
-}
-
-#memoji {
-    margin-top: -50px;
-    width: 20%;
-    height: 20%;
-    padding-left: 40%;
-}
-
 #prestations {
     background-color: #f1f2f6;
 }
