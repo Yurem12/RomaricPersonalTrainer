@@ -57,7 +57,7 @@ a {
 
 #navbar1 {
     overflow: hidden;
-    background-color: rgb(7, 118, 204);
+    background-color: rgb(224, 0, 0);
     position: fixed;
     width: 100%;
     opacity: 0.9;
@@ -108,7 +108,7 @@ header li a {
 }
 /* présentation */
 #avisclients {
-    background-color: lightblue;
+    background-color: rgb(255, 81, 81);
     padding: 10px 0px 100px 0px;
 }
 #avisclients h2 {
@@ -139,14 +139,27 @@ header li a {
 }
 
 #TexteIntro p {
+    font-family: 'Advent Pro';
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
     padding-top: 30px;
-    padding-bottom: 15%;
+    padding-bottom: 3px;
 }
-#premiertrait {
-    height: 1px;
-    width: 12.5%;
+
+#deuxemetrait {
+    height: 10px;
+    width: 30%;
     margin: -3px auto;
     background-color: black;
+    border-radius: 10ex;
+}
+
+#pres li {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 15%;
+    text-align: center;
 }
 
 #par p {
@@ -225,11 +238,10 @@ header li a {
 .services {
     text-align : center;
     padding : 1em;
-    border : 0.5em solid lightblue;
+    background-color: rgb(255, 34, 34);
     border-width: auto;
     margin: 10px 5% 40px 8%;
     border-radius: 5%;
-    background-color: lightblue;
     box-shadow: 8px 8px 20px -3px rgba(0,0,0,0.62)e;
 }
 
@@ -242,12 +254,6 @@ header li a {
 }
 #Choisir h2 {
     padding-top: 30px;
-}
-
-#TexteIntro p{
-    background-color: #f1f2f6;
-    font-family: 'Dancing Script';
-    font-size: 1.5em;
 }
 
 #TexteIntro li{
@@ -313,7 +319,7 @@ header li a {
 }
 /* Formulaire de contact */
 footer {
-    background-color: lightblue;
+    background-color: rgb(255, 81, 81);
     padding-top: 1px;
     color: #fffae1;
     padding: 20px 0 10px 0;
