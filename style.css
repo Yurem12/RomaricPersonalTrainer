@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
 body {
     font-family: 'Advent Pro', sans-serif;
     padding: 0;
@@ -94,7 +95,7 @@ header li a {
     background: url(imageSDS.jpeg) no-repeat fixed 50% 50%;
     background-size: cover;
     height: 400px;
-    width: 100%;
+    width: device-width;
 }
 
 #imagePrincipale h3 {
