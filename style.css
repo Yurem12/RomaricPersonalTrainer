@@ -95,7 +95,15 @@ header li a {
     background: url(imageSDS.jpeg) no-repeat fixed 50% 50%;
     background-size: cover;
     height: 400px;
-    width: device-width;
+}
+
+@media all and (orientation:portrait) {
+    #imagePrincipale {
+        padding-top: 60px;
+        background: url(imageSDS1.jpeg) no-repeat fixed 50% 50%;
+       background-size: cover;
+        height: 400px;
+    }
 }
 
 #imagePrincipale h3 {
