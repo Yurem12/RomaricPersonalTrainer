@@ -102,6 +102,16 @@ header li a {
         padding-top: 60px;
         background: url(Entrainement.jpg) no-repeat fixed 50% 50%;
     }
+    #navbar1 {
+        overflow: hidden;
+        background-color: rgb(224, 0, 0);
+        position: fixed;
+        height: 3%;
+        width: 100%;
+        opacity: 0.9;
+        top: 0;
+        
+    }
 }
 
 #imagePrincipale h3 {
