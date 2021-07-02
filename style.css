@@ -101,16 +101,17 @@ header li a {
     #imagePrincipale {
         padding-top: 60px;
         background: url(Entrainement.jpg) no-repeat fixed 50% 50%;
+        width: 100%;
+        background-size: cover;
     }
     #navbar1 {
         overflow: hidden;
         background-color: rgb(224, 0, 0);
         position: fixed;
-        height: 30%;
         width: 100%;
         opacity: 0.9;
         top: 0;
-        
+        font-size: 1.5em;
     }
 }
 
