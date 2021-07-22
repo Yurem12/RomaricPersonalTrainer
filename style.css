@@ -104,7 +104,9 @@ header li a {
         background: url(Entrainement.jpg) no-repeat fixed 50% 50%;
         width: 100%;
         background-size: cover;
+        left: 0;
     }
+    
     #navbar1 {
         overflow: hidden;
         background-color: rgb(224, 0, 0);
