@@ -66,7 +66,7 @@ a {
 }
 header li {
     float: left;
-    font-size: 1.2em;
+    font-size: 1.2vw;
 }
 header li a {
     text-decoration: none;
@@ -85,6 +85,7 @@ header li a {
     float: right;
 }
 #logofb {
+    font-size: 1.2vw;
     padding: 25px 16px 5px 16px;
     float: right;
 }
@@ -111,7 +112,7 @@ header li a {
         overflow: hidden;
         background-color: rgb(224, 0, 0);
         position: fixed;
-        width: 100%;
+        width: 100vw;
         opacity: 0.9;
         top: 0;
     }
@@ -122,7 +123,7 @@ header li a {
 }
 #premiertrait {
     height: 1px;
-    width: 12.5%;
+    width: 12.5vw;
     margin: -3px auto;
     background-color: black;
 }
@@ -132,22 +133,39 @@ header li a {
     padding: 10px 0px 100px 0px;
 }
 #avisclients h2 {
+    font-size: 1.2vw;
     text-align: center;
 }
 #client {
-    margin-left: 30%;
+    margin-left: 27.5vw;
 }
 #avisclients li {
-    margin-left: 25%;
+    margin-left: 25vw;
     background: url(avis1.jpg) no-repeat border-box;
-    padding: 30px 0px 50px 10%;
-    height: 180px;
-    width: 50%;
+    padding: 30px 0px 50px 10vw;
+    height: 10vw;
+    width: 50vw;
     max-width: 550px;
 }
 #premieravis p {
+    font-size: 1vw;
+    height: 15vw;
     float: right;
-    padding: 0px 0px 0px 60%;
+    padding: 0px 0px 0px 40vw;
+}
+
+#buttonavis {
+    font-size: 1.5vw;
+    background-color: burlywood;
+    margin-left: 45vw;
+    margin-top: 15vw;
+    margin-right: 10vw;
+    width: 10%;
+}
+#buttonavis:hover {
+    background-color: bisque;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 
 #prestations {
@@ -160,7 +178,7 @@ header li a {
 
 #TexteIntro p {
     font-family: 'Advent Pro';
-    font-size: 1.5em;
+    font-size: 1.5vw;
     font-weight: bold;
     text-align: center;
     padding-top: 30px;
@@ -176,14 +194,14 @@ header li a {
 }
 
 #pres li {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     font-weight: bold;
     padding-bottom: 15%;
     text-align: center;
 }
 
 #par p {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     font-weight: bold;
     padding: 20px 20px 20px 20px;
     text-align: center;
@@ -207,14 +225,14 @@ header li a {
 }
 
 #prestations p {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     padding: 8px 25%;
 }
 
 #prestations h6 {
     font-family: 'Dancing Script' cursive;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     padding-top: 15px;
     font-weight: 200;
 }
@@ -257,7 +275,7 @@ header li a {
 
 .services {
     text-align : center;
-    padding : 1em;
+    padding : 1vw;
     background-color: rgb(255, 34, 34);
     border-width: auto;
     margin: 10px 5% 40px 8%;
@@ -305,7 +323,7 @@ header li a {
     height: 45px;
     width: 350px;
     margin: 1px -300px 0 20% ;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     text-align: center;
 }
 
@@ -328,7 +346,7 @@ header li a {
     background-color: #01DF74;
     float: right;
     margin: 50px -180px 0 0;
-    font-size: 1em;
+    font-size: 1vw;
     text-align: center;
     padding-top: 5px;
     box-shadow: 4px 4px 0 1px rgba(90,161,43,1);
@@ -345,17 +363,7 @@ footer {
     padding: 20px 0 10px 0;
     text-align: center;
 }
-#buttonavis {
-    font-size: 1.5em;
-    background-color: burlywood;
-    margin-left: 45%;
-    width: 10%;
-}
-#buttonavis:hover {
-    background-color: bisque;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-}
+
 #copyrights {
     padding: auto;
     bottom: 0px;
@@ -372,7 +380,7 @@ footer {
     margin:60px auto;
 }
 #logoinsta {
-    font-size: 2em;
+    font-size: 2vw;
 }
 
 #copyrights {
@@ -389,7 +397,7 @@ footer {
 
 #reservation h2{
     padding-top: 75px;
-    font-size: 3em;
+    font-size: 3vw;
 }
 
 #reservation p {
@@ -423,7 +431,7 @@ footer {
 }
 
 #programmes p {
-    font-size: 0.8em;
+    font-size: 0.8vw;
     color: #ccff66;
 }
 
@@ -437,7 +445,7 @@ footer {
 }
 
 #Romaric p {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     padding: 8% 10%;
     font-weight: bold;
     color: rgb(255, 255, 254);
