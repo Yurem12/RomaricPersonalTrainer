@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
+
 body {
     font-family: 'Advent Pro', sans-serif;
     padding: 0vw;
@@ -454,3 +455,9 @@ footer {
     font-weight: bold;
     color: rgb(255, 255, 254);
 }
+
+@supports (-webkit-touch-callout: none) {
+    #imageprincipale {
+        position: fixed;
+    } 
+ }
