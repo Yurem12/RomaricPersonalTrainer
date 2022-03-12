@@ -5,8 +5,9 @@
 
 body {
     font-family: 'Advent Pro', sans-serif;
-    padding: 0;
-    margin: 1;
+    padding: 0vw;
+    margin: 0vw;
+    background-size: cover;
 }
 nav h1 {
     padding-top: 60px;
@@ -23,9 +24,10 @@ li {
 }
 #TexteIntro p {
     font-family: 'Roboto';
-    padding: 10px 13%;
+    padding: 10px 13vw;
     text-align: center;
 }
+
 h1 {
     font-family:   'Dancing Script';
     text-transform: uppercase;
@@ -60,9 +62,10 @@ a {
     overflow: hidden;
     background-color: rgb(224, 0, 0);
     position: fixed;
-    width: 100%;
+    width: 100vw;
     opacity: 0.9;
-    top: 0;
+    top: 0px;
+    min-height: 50px;
 }
 header li {
     float: left;
@@ -103,7 +106,7 @@ header li a {
     #imagePrincipale {
         padding-top: 60px;
         background: url(Entrainement.jpg) no-repeat fixed 50% 50%;
-        width: 100%;
+        width: 100vw;
         background-size: cover;
         left: 0;
     }
@@ -257,20 +260,20 @@ header li a {
 .services button {
     display: inline-block;
     background-color: #b1b1b1;
-    border-radius: 10px;
+    border-radius: 4vw;
     border: 4px #cccccc;
     color: #eeeeee;
     text-align: center;
-    font-size: 28px;
+    font-size: 2vw;
     padding: 20px;
-    width: 100%;
+    width: 98%;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
 }
 
 .services button:hover {
-    background-color: #ff0000;
+    background-color: #ad0000;
     }
 
 .services {
@@ -278,9 +281,10 @@ header li a {
     padding : 1vw;
     background-color: rgb(255, 34, 34);
     border-width: auto;
-    margin: 10px 5% 40px 8%;
+    margin: 10px 17.5vw 40px 12.5vw;
     border-radius: 5%;
-    box-shadow: 8px 8px 20px -3px rgba(0,0,0,0.62)e;
+    box-shadow: 8px 8px 20px -3px rgba(0,0,0,0.62);
+    width: 70vw;
 }
 
 /* Pourquoi me choisir */
